@@ -5,9 +5,9 @@
 a) Linear runtime: as n grows the the thing inside the loop grows, in a one-to-one relationship
 
 
-b) Quadratic runtime: as n in the outside loop grows, the inside of the while loop group grows qudratically
+b) Quadratic runtime: as n in the outside loop grows, the inside of the while loop group grows quadratically
 
-c) Constant: 
+c) Constant runtime: there is no growth in n in this case 
 
 ## Exercise II
 
