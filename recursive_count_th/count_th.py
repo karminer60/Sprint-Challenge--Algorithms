@@ -7,8 +7,8 @@ def count_th(word):
     count = 0
     if word[0] == 't' and word[1] == 'h':
         count += 1
-    count = count_th(word[1:])
-    count += 1
+    count += count_th(word[1:])
+    
    
     
     #count = 0

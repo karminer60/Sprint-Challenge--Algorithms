@@ -36,10 +36,11 @@ Suppose that you have an n-story building and plenty of eggs. Suppose also that 
 Write out your proposed algorithm in plain English or pseudocode AND give the runtime complexity of your solution.
 
 
-Pseudocode:
+English:
 
-1. I would have to create a for loop with an if statement that iterates over the different floors
-2. Then I would create an if statement that adds to the number of eggs dropped/broken if the floor equals f
+1. I would have to create a while loop that runs while the egg doesn't break and then when an egg breaks I will have found f floor value
+2. I would make it start at the ground floor and have it move along until an egg breaks
+
 
 
 
