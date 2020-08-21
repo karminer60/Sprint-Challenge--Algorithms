@@ -11,6 +11,3 @@ def count_th(word):
     else:
         count_th()
 
-
-    
-    pass
