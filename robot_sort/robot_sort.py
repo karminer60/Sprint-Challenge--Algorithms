@@ -102,24 +102,16 @@ class SortingRobot:
             swapped = False
             while self.move_left():
                 pass
-            while self.move_right():
-                if self.compare_item() == None:
-                    self.swap_item()
-                    
-                if self.compare_item() == 1 :
+            
+            while self.can_move_right():
+                self.swap_item()  # put None in list
+                self.move_right()
+                if self.compare_item() == 1:
                     self.swap_item()
                     swapped = True
-                else:
-                    if self.compare_item() != None:
-                        pass
-                    else:
-                        self.swap_item()
-                    swapped = False
-
-                    
-        
-
-        
+                self.move_left()
+                self.swap_item() # take None from list
+                self.move_right()        
 
 
 if __name__ == "__main__":
