@@ -16,6 +16,8 @@ Write out your proposed algorithm in plain English or pseudocode AND give the ru
 
 English:
 
+I have optamized for the number of dropped and broken eggs, which is one broken egg
+
 1. I would have to create a while loop that runs while the egg doesn't break and then when an egg breaks I will have found f floor value
 2. I would make it start at the ground floor and have it move along until an egg breaks
 
