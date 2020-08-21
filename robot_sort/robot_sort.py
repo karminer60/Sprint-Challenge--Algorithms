@@ -97,22 +97,13 @@ class SortingRobot:
         Sort the robot's list.
         """
         # Fill this out
-        for i in range(0, len(self._list) - 1):
-            cur_index = i
-            smallest_index = cur_index
-       
-            for item in range(i, len(self._list)):
-                if self._list[item] < self._list[smallest_index]:
-                    smallest_index = item
-            
-            
+        swapped = True
+        while swapped:
+            swapped = False
+            while self.can_move_right:
+                if self.compare_item() == -1 :
+                    swapped = True
         
-            # TO-DO: swap
-            # Your code here
-            #self._list[cur_index], self._list[smallest_index] = self._list[smallest_index], self._list[cur_index]
-            swap_item()
-
-        return self._list
 
         
 
