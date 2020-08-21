@@ -2,13 +2,12 @@
 
 ## Exercise I
 
-a)
+a) Linear runtime: as n grows the the thing inside the loop grows, in a one-to-one relationship
 
 
-b)
+b) Quadratic runtime: as n in the outside loop grows, the inside of the while loop group grows qudratically
 
-
-c)
+c) Constant: 
 
 ## Exercise II
 
