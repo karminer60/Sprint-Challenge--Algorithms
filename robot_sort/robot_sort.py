@@ -109,7 +109,8 @@ class SortingRobot:
         
             # TO-DO: swap
             # Your code here
-            self._list[cur_index], self._list[smallest_index] = self._list[smallest_index], self._list[cur_index]
+            #self._list[cur_index], self._list[smallest_index] = self._list[smallest_index], self._list[cur_index]
+            swap_item()
 
         return self._list
 
