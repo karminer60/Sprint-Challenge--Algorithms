@@ -2,12 +2,11 @@
 
 ## Exercise I
 
-a) Linear runtime: as n grows the the thing inside the loop grows, in a one-to-one relationship
+a) Linear runtime: it takes the inside of the loop n times to reach n cubed
 
+b) n*log(n): the first loop goes up by n while the inner while loop goes up by 2^(n) or log(n) (in order to reach the end of that loop you raise 2 to the nth power)
 
-b) Quadratic runtime: as n in the outside loop grows, the inside of the while loop group grows quadratically
-
-c) Constant runtime: there is no growth in n in this case 
+c) Linear runtime: runtime determined by n or bunnies- the value n determines how many times the function recurses
 
 ## Exercise II
 

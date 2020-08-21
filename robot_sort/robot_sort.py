@@ -100,9 +100,18 @@ class SortingRobot:
         swapped = True
         while swapped:
             swapped = False
-            while self.can_move_right:
-                if self.compare_item() == -1 :
+            while self.move_left():
+                pass
+            while self.move_right():
+                if self.compare_item() == None:
+                    self.swap_item()
+                    
+                if self.compare_item() == 1 :
+                    self.swap_item()
                     swapped = True
+                else:
+                    swapped = False
+                    self.
         
 
         
