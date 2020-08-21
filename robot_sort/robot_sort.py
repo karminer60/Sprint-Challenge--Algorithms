@@ -97,21 +97,21 @@ class SortingRobot:
         Sort the robot's list.
         """
         # Fill this out
-        for i in range(0, len(l) - 1):
-        cur_index = i
-        smallest_index = cur_index
+        for i in range(0, len(self._list) - 1):
+            cur_index = i
+            smallest_index = cur_index
        
-        for item in range(i, len(l)):
-            if l[item] < l[smallest_index]:
-                smallest_index = item
+            for item in range(i, len(self._list)):
+                if self._list[item] < self._list[smallest_index]:
+                    smallest_index = item
             
             
         
         # TO-DO: swap
         # Your code here
-        arr[cur_index], arr[smallest_index] = arr[smallest_index], arr[cur_index]
+        self._list[cur_index], self._list[smallest_index] = self._list[smallest_index], self._list[cur_index]
 
-        return arr
+        return self._list
 
         
 
