@@ -4,7 +4,7 @@
 
 a) Linear runtime: it takes the inside of the loop n times to reach n cubed
 
-b) n*log(n): the first loop goes up by n while the inner while loop goes up by 2^(n) or log(n) (in order to reach the end of that loop you raise 2 to the nth power)
+b) n*log(n): the first loop is determined by the value of n while the inner while loop is determined by 2^(log(n)) 
 
 c) Linear runtime: runtime determined by n or bunnies- the value n determines how many times the function recurses
 

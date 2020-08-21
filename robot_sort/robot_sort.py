@@ -110,8 +110,13 @@ class SortingRobot:
                     self.swap_item()
                     swapped = True
                 else:
+                    if self.compare_item() != None:
+                        pass
+                    else:
+                        self.swap_item()
                     swapped = False
-                    self.
+
+                    
         
 
         
